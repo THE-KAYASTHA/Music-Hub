@@ -22,5 +22,10 @@ public class Song {
     }
 
 
-
+    public String toString() {
+        return "Song{" +
+                "songTitle='" + songTitle + '\'' +
+                ", duration=" + duration +
+                '}';
+    }
 }
